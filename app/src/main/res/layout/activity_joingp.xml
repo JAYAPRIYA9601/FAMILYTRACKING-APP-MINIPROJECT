@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".joingp">
+
+    <EditText
+        android:id="@+id/jcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:hint="Unique Code"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
+
+
+    <Button
+        android:id="@id/join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jcode"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/btn_bg"
+        android:text="JOIN GROUP"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="98dp" />
+</RelativeLayout>
